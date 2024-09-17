@@ -12,6 +12,7 @@ public class Person {
     private int birthDay;
     private String phone;
     private Address address;
+
     public Person() {}
 
     public Person(String firstName, String lastName, int birthYear, int birthMonth, int birthDay, String phone, Address address) {
@@ -92,7 +93,8 @@ public class Person {
     public int hashCode() {
         return Objects.hash(firstName, lastName, birthYear, birthMonth, birthDay, phone, address);
     }
-    public int getAge(){
+
+    public int age(){
         // Дата рождения
         LocalDate birthDate = LocalDate.of(birthYear, birthMonth, birthDay);
         // Текущая дата

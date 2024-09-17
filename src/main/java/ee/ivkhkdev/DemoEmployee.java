@@ -4,7 +4,8 @@ package ee.ivkhkdev;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class DemoEmployee {
     public static void main(String[] args) {
-        App app = new App();
+        App app;
+        app = new App();
         app.run();
     }
 }
