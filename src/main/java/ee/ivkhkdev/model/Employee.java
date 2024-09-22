@@ -1,4 +1,4 @@
-package ee.ivkhkdev;
+package ee.ivkhkdev.model;
 
 import java.util.Objects;
 
@@ -7,7 +7,7 @@ public class Employee {
     private String position;
     private String salary;
 
-    public Employee() {
+    public Employee(String s, String string, String position, Person person) {
     }
 
     public Employee(Person person, String position, String salary) {

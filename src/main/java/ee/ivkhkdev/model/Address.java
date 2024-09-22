@@ -1,4 +1,4 @@
-package ee.ivkhkdev;
+package ee.ivkhkdev.model;
 
 import java.util.Objects;
 

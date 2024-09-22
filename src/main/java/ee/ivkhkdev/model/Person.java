@@ -1,4 +1,4 @@
-package ee.ivkhkdev;
+package ee.ivkhkdev.model;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -13,7 +13,7 @@ public class Person {
     private String phone;
     private Address address;
 
-    public Person() {}
+    public Person(String s, String string, String position, int i, int birthMonth, int birthDay, String phone, Address address) {}
 
     public Person(String firstName, String lastName, int birthYear, int birthMonth, int birthDay, String phone, Address address) {
         this.firstName = firstName;
